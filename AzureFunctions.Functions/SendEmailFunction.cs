@@ -31,7 +31,8 @@ public static class SendEmailFunction
                 message.PlainBody,
                 message.HtmlBody,
                 null,
-                null
+                null,
+                bool.Parse(Environment.GetEnvironmentVariable("EmailHostUsesLocalCertificate"))
             );
 
             log.LogInformation($"Email to: {string.Join(";", toEmailsList.ToArray())} sent successfully!");
