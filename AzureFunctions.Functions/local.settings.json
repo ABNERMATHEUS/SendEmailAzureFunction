@@ -1,0 +1,15 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+        "EmailHost": "{YOUR-SMTP-HOST}",
+        "EmailPort": "{YOUR-SMTP-PORT}",
+        "EmailUser": "{YOUR-USER}",
+        "EmailPassword": "{YOUR-PASSWORD}",
+        "EmailFromEmail": "{YOUR-FROM-EMAIL}",
+        "EmailFromName": "{YOUR-FROM-NAME}",
+        "EmailHostUsesLocalCertificate": "false",
+        "SeviceBusConnection": "{CONNECTION_STRING_SERVICE_BUS}"
+    }
+}
