@@ -11,7 +11,7 @@ public static class SendEmailFunction
 {
     [FunctionName("SendEmailFunction")]
     public static async Task RunAsync(
-        [ServiceBusTrigger("send-email", Connection = "SeviceBusConnection")]
+        [ServiceBusTrigger("send-email", Connection = "ServiceBusConnection")]
         EmailToSend message, ILogger log)
     {
         try
