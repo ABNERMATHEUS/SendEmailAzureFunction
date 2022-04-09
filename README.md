@@ -1,6 +1,6 @@
 # Azure Function to Send Email with MailKit
 
-The proyect consists of an Azure function that is triggered by an http request to send an email using [MailKit client library](https://github.com/jstedfast/MailKit)
+The project consists of an Azure function consuming a queue on the service bus, to send an email using [MailKit client library](https://github.com/jstedfast/MailKit)
 
 This can be useful if you want to send an email in response to a webhook setup on another system.  Most of the samples available on GitHub that send email with Azure functions use the SendGrid library.  This library and service is great if you plan to send a lot of emails.  But if you just need occasional emails, the MailKit client library should be more than enough. BTW, I think the MailKit library is awesome.
 
