@@ -10,6 +10,6 @@
         "EmailFromEmail": "{YOUR-FROM-EMAIL}",
         "EmailFromName": "{YOUR-FROM-NAME}",
         "EmailHostUsesLocalCertificate": "false",
-        "SeviceBusConnection": "{CONNECTION_STRING_SERVICE_BUS}"
+        "ServiceBusConnection": "{CONNECTION_STRING_SERVICE_BUS}"
     }
 }
